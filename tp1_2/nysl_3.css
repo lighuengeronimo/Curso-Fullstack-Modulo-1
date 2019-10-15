@@ -1,0 +1,133 @@
+body {
+  margin:0px;
+  background-image: url('imagenes/artificial-grass-accessories.jpg');
+  background-repeat: repeat;  
+  overflow-y:scroll;
+
+}
+/*banner*/
+h1 {
+  background-image: url('imagenes/soccer-banner2.jpg');
+  background-size:100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-position-y:  -230px;
+  height: 200px;
+  font: bold 60px Helvetica;
+  color:#d4e2d4;
+  text-shadow: 6px 6px 2px black;
+  margin-top: 0px;
+  padding-left:200px;
+  padding-top: 100px;
+}
+
+#logo{
+  position:absolute;
+  width: 250px;
+  left:30px;
+  top:20px;
+  opacity:0.7;
+}
+
+
+/*titulo*/
+#div1{   
+    text-align: center;
+    display:block;
+    background-size:contain;
+  }
+  
+
+/*encabezado*/
+  .header{
+    margin-top:-50px;
+    padding:10px;
+    font: bold 35px Arial;
+    color:white;
+    text-align:center;
+    background-image:linear-gradient(to right, white 25%, rgb(104, 101, 100) 40%,
+    rgb(104, 101, 100) 60%, white 75%);
+    border: solid black;
+    border-width: 3px;
+  }
+
+/* nav */
+#div2{
+  position:relative;
+  display:inline;
+  font: 30px Arial white;
+}
+
+#home{
+    margin-top:-20px;
+}
+.nav{ 
+  display:block;
+  text-align:center;
+  padding: 4px;
+  margin:20px;
+  margin-left:0%;
+  width: 20%;
+  text-decoration:none;
+  background-image: linear-gradient(to right, rgba(255,0,0,0) 15%, rgb(207, 98, 58) 40%,
+  rgb(207, 98, 58) 60%, rgba(255,0,0,0) 85%);
+  font: 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.currentpage {
+  padding:4px;
+  display:block;
+  text-align:center;
+  margin:20px;
+  margin-left:0%;
+  width: 20%;
+  text-decoration:none;  
+  background-image:linear-gradient(to right, rgba(255,0,0,0) 5%, rgb(104, 101, 100) 40%,
+  rgb(104, 101, 100) 60%, rgba(255,0,0,0) 95%);
+  font: 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+/*cuerpo*/
+#div3{
+  margin-top:-200px;
+  margin-left:0;
+  margin-right:0;
+  background-size:cover;
+  width:85%;
+  height:100%;
+  float:right;
+}
+
+
+#mail {
+  color:blue;
+  display:inline;
+  margin-left: 2px;
+  padding:0px;
+  box-shadow: none;
+}
+
+ p{
+  font: 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+  margin-left: 200px;
+}
+
+
+h6 {
+  font: bold 30px Arial;
+  margin-left:150px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.date{
+  font-style: italic;
+}

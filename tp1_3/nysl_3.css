@@ -1,0 +1,239 @@
+body {
+  margin:0px;
+  background-image: url('imagenes/artificial-grass-accessoriesv2.jpg');
+  background-repeat: repeat;
+  overflow-y:scroll;
+}
+/*banner*/
+h1 {
+  background-image: url('imagenes/soccer-banner2.jpg');
+  background-size:100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-position-y:  -230px;
+  height: 200px;
+  font: bold 60px Helvetica;
+  color:#d4e2d4;
+  text-shadow: 6px 6px 2px black;
+  margin-top: 0px;
+  padding-left:200px;
+  padding-top: 100px;
+}
+
+#logo{
+  position:absolute;
+  width: 200px;
+  left:30px;
+  top:20px;
+  opacity:0.7;
+}
+
+
+/*titulo*/
+#div1{   
+    text-align: center;
+    display:block;
+    background-size:contain;
+  }
+  
+
+/*encabezado*/
+  .header{
+    margin-top:-100px;
+    padding:10px;
+    font: bold 35px Arial;
+    color:white;
+    text-align:center;
+    background-image:linear-gradient(to right, white 25%, rgb(104, 101, 100) 40%,
+     rgb(104, 101, 100) 60%, white 75%);
+    border: solid black;
+    border-width: 3px;
+  }
+
+/* nav */
+#div2{
+  position:relative;
+  display:block;
+  font: 30px Arial white;
+}
+
+#home{
+    margin-top:80px;
+}
+.nav{ 
+  color:white;
+  display:block;
+  text-align:center;
+  padding: 4px;
+  margin:20px;
+  margin-left:10px;
+  width: 20%;
+  text-decoration:none;
+  background-image: linear-gradient(to right, rgba(255,0,0,0) 5%, rgb(207, 98, 58) 40%,
+  rgb(207, 98, 58) 60%, rgba(255,0,0,0) 95%);
+  font: 25px Arial;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+.currentpage {
+  padding:4px;
+  color:white;
+  display:block;
+  text-align:center;
+  margin:20px;
+  margin-left:10px;
+  width: 20%;
+  text-decoration:none;  
+  background-image:linear-gradient(to right, rgba(255,0,0,0) 5%, rgb(104, 101, 100) 40%,
+  rgb(104, 101, 100) 60%, rgba(255,0,0,0) 95%);
+  font: 25px Arial;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+/*cuerpo*/
+.div3{
+  margin-top:-330px;
+  margin-left:0;
+  margin-right:50px;
+  width:80%;
+  height:100%;
+  float:right;
+  margin-bottom:100px;
+}
+
+#div_gameinfo{
+  width:75%;
+  float:left;
+  margin-left:250px;
+
+}
+
+#div_contact{
+  width:70%;
+}
+
+#mail {
+  color:white;
+  display:inline;
+  margin-left: 2px;
+  padding:0px;
+  text-shadow:3px 3px 4px blue;
+}
+
+ p{
+  font: 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 110px;
+}
+
+li{
+  font: 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+  margin-left:50px;
+  margin-right: 40px;
+}
+
+
+h6,h4 {
+  font: bold 30px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 60px;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+
+.header2{
+  text-align:center;
+  font-size:35px;
+}
+
+#header_NYSL{
+  font-size: 45px;
+}
+
+#subheader{
+  font-size: 30px;
+  text-align:left;
+  margin-left:100px;
+  font-style:italic;
+}
+
+#subheader2{
+  font: 25px Arial;
+  font-style:italic;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 90px;
+}
+
+.date{
+  font-style: italic;
+  margin-left:100px;
+}
+
+.headers_about{
+  margin-left: 85px;
+}
+
+ul{
+  list-style-type: square;
+}
+
+table{
+  font: bold 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left:104px; 
+  margin-top:60px;
+  border-spacing: 40px 15px;
+}
+
+#table_sep{
+  margin-left:75px;
+}
+
+#table_oct{
+  border-spacing:51px 15px;
+  margin-left:75px; 
+
+}
+
+#table_loc{
+  margin-left:60px;
+}
+
+th{
+  margin-bottom:15px;
+  margin-left:40px;
+  text-decoration:underline;
+  text-shadow: 3px 0px 4px black;
+  text-align:center;
+}
+
+td{
+  margin-left:5px;
+  text-align:center;
+}
+
+.location,#table_loc{
+text-align:left;
+}
+
+#div4{
+  display:block;
+  margin-left:-50px;
+  margin-right:40px;
+  margin-top:60px;
+}
+
+#table_contact{
+  border-spacing: 70px 15px;
+}
+
+

@@ -1,0 +1,100 @@
+body {
+  margin:0px;
+}
+/*banner*/
+h1 {
+  background-image: url('imagenes/design2_image1.jpg');
+  background-size: cover;
+  background-position-y: 80px;
+  background-repeat:no-repeat;
+  height: 370px;
+  font: 70px Arial;
+  font-style:italic;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+#logo{
+  width: 200px;
+  left:30px;
+}
+
+/*titulo*/
+#div1{   
+  display:block;
+  background-size:contain;
+  
+}
+
+/*encabezado*/
+.header{
+  margin-top:-300px;
+  font: 50px Arial;
+  text-align:center;
+  background-color: white;
+  border: solid black;
+}
+
+/* nav */
+#div2{
+  position:absolute;
+  top:75px;
+  right:0;  
+  display:inline;
+  width: 30%;
+  font: 20px Arial white;
+}
+
+a{ 
+  color:white;
+  display:inline;
+  border: solid black;
+  box-shadow: 4px 2px black;
+  text-align:center;
+  padding: 4px;
+  margin-left: 10px;
+  margin-right:10px;
+  background-color:blue;
+  text-decoration:none;
+  
+}
+
+
+.currentpage {
+  background-color:green;
+}
+
+/*cuerpo*/
+#div3{
+  margin-top:-60px;
+  display:inline-block;
+  float:right;
+  width:80%;
+}
+
+
+#mail {
+  color:blue;
+  display:inline;
+  margin-left: 2px;
+  border: white;
+  padding:0px;
+  background-color: white;
+  box-shadow: none;
+}
+
+ p{
+  font: 20px Arial;
+  margin-left: 50px;
+}
+
+
+h6 {
+  font: bold 30px Arial;
+  margin:20px;
+}
+
+.date{
+  font-style: italic;
+}

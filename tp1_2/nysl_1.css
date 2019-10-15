@@ -1,0 +1,98 @@
+
+body {
+  margin:0px;
+}
+/*banner*/
+h1 {
+  
+  background-image: url('imagenes/design1_image1.jpg');
+  background-size: cover;
+  height: 250px;
+  font: 70px Arial;
+  color:green;
+  text-shadow: 5px 5px black;
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+#logo{
+  position:absolute;
+  width: 200px;
+  top:180px;
+  right:100px;
+}
+
+/*titulo*/
+#div1{   
+  display:block;
+  background-size:contain;
+  
+}
+
+/*encabezado*/
+.header{
+  margin-top:-50px;
+  font: 50px Arial;
+  text-align:center;
+  background-color: black;
+  color: white;
+}
+
+/* nav */
+#div2{
+  
+  display:inline-block;
+  border-color:black;
+  width: 20%;
+
+}
+
+
+a{ 
+  display:block;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  font: 20px Arial;
+  text-decoration:none;
+
+}
+
+.currentpage {
+  text-decoration:underline;
+}
+
+#home {
+  margin-top:-10px;
+}
+
+
+/*cuerpo*/
+#div3{
+  margin-top:-60px;
+  float: right;
+  width:80%;
+}
+
+ p{
+  font: 20px Arial;
+  margin-left: 50px;
+}
+
+
+h6 {
+  font: bold 30px Arial;
+  margin:20px;
+}
+
+.date{
+  font-style: italic;
+}
+
+#mail {
+  display:inline;
+  margin-left: 2px;
+  text-decoration:underline;
+}

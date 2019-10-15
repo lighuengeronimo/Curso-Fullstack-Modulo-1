@@ -1,0 +1,413 @@
+body {
+  margin:0px;
+  background-image: url('imagenes/artificial-grass-accessoriesv2.jpg');
+  background-repeat: repeat;
+  background-position-x:  -100px;
+  overflow-y:scroll;
+}
+/*banner*/
+h1 {
+  background-image: url('imagenes/soccer-banner2.jpg');
+  background-size:100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-position-y:  -230px;
+  height: 200px;
+  font: bold 60px Helvetica;
+  color:#d4e2d4;
+  text-shadow: 6px 6px 2px black;
+  margin-top: 0px;
+  padding-left:200px;
+  padding-top: 100px;
+}
+
+#logo{
+  position:absolute;
+  width: 200px;
+  left:30px;
+  top:20px;
+  opacity:0.7;
+}
+
+
+/*titulo*/
+#div1{   
+    text-align: center;
+    display:block;
+    background-size:contain;
+  }
+  
+
+/*encabezado*/
+  .header{
+    margin-top:-100px;
+    padding:10px;
+    font: bold 35px Arial;
+    color:white;
+    text-align:center;
+    background-image:linear-gradient(to right, white 25%, rgb(104, 101, 100) 40%,
+     rgb(104, 101, 100) 60%, white 75%);
+    border: solid black;
+    border-width: 3px;
+  }
+
+/* nav */
+#div2{
+  position:relative;
+  display:inline-block;
+  font: 30px Arial white;
+  width:25%;
+}
+
+#home{
+    margin-top:20px;
+}
+
+.nav{ 
+  color:white;
+  display:block;
+  text-align:center;
+  padding: 4px;
+  margin:20px;
+  margin-left:-10px;
+  text-decoration:none;
+  background-image: linear-gradient(to right, rgba(255,0,0,0) 5%, rgb(207, 98, 58) 40%,
+  rgb(207, 98, 58) 60%, rgba(255,0,0,0) 95%);
+  font: 25px Arial;
+  text-shadow: 2px 2px 3px black;
+}
+
+.nav:hover,.currentpage:hover{
+  font: 25px bolder;
+  background-image:linear-gradient(to right, rgba(255,0,0,0) 15%, rgb(230, 230, 230) 23%,
+  rgb(153, 153, 153) 33%, rgb(104, 101, 100)50%, rgb(153, 153, 153) 67%,rgb(230, 230, 230) 77%,  rgba(255,0,0,0) 85%);
+}
+
+.currentpage {
+  padding:4px;
+  color:white;
+  display:block;
+  text-align:center;
+  margin:20px;
+  margin-left:-10px;
+  text-decoration:none;  
+  background-image:linear-gradient(to right, rgba(255,0,0,0) 5%, rgb(104, 101, 100) 40%,
+  rgb(104, 101, 100) 60%, rgba(255,0,0,0) 95%);
+  font: 25px Arial;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+/*cuerpo*/
+.div3{
+  margin-top:-330px;
+  margin-left:0;
+  margin-right:50px;
+  width:75%;
+  height:100%;
+  float:right;
+  margin-bottom:100px;
+}
+
+#div_gameinfo{
+  width:75%;
+  float:left;
+  margin-left:250px;
+
+}
+
+#div_contact{
+  width:75%;
+}
+
+#p_contact{
+  margin-top:80px;
+  margin-left:150px;
+}
+#mail {
+  color:white;
+  display:inline;
+  margin-left: 2px;
+  padding:0px;
+  text-shadow:3px 3px 4px black;
+}
+
+ p{
+  font: 25px Arial;
+  text-indent: 2em;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 110px;
+}
+
+li{
+  font: 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+  margin-left:50px;
+  margin-right: 40px;
+}
+
+
+h6,h4 {
+  font: bold 30px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 60px;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+
+/*locaciones */
+
+.header2{
+  text-align:center;
+  font-size:35px;
+}
+
+#header_NYSL{
+  font-size: 45px;
+}
+
+#subheader{
+  font-size: 30px;
+  text-align:left;
+  margin-left:190px;
+  font-style:italic;
+}
+
+#subheader2{
+  font: 25px Arial;
+  font-style:italic;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 180px;
+}
+
+.date{
+  font-style: italic;
+  margin-left:100px;
+}
+
+.headers_about{
+  margin-left: 85px;
+}
+
+ul{
+  list-style-type: square;
+}
+
+table{
+  font: bold 25px Arial;
+  color:white;
+  text-shadow: 2px 2px 4px black;
+  margin-top:60px;
+  margin-left:175px;
+  border-spacing: 40px 15px;
+}
+
+
+#table_oct{
+  border-spacing:51px 15px;
+}
+
+#table_loc{
+  margin-left:120px;
+}
+
+th{
+  margin-bottom:15px;
+  margin-left:40px;
+  text-decoration:underline;
+  text-shadow: 3px 0px 4px black;
+  text-align:center;
+}
+
+td{
+  margin-left:5px;
+  text-align:center;
+}
+
+.location,#table_loc{
+text-align:left;
+}
+
+#list_loc{
+  display:inline-block;
+  width:40%;  
+  margin-top:40px;
+  margin-left:70px;
+}
+
+#list_loc>li>a{
+  margin-top:5px;
+  font: 20px Arial;
+  text-decoration: none;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+}
+
+#list_loc>li>a:hover,#mail:hover{
+  color:blue;
+}
+
+#map{
+  margin-top:40px;
+  margin-left:60px;
+  display:inline-block;
+  width:350px;
+  height:350px;
+  }
+
+#div4{
+  display:block;
+  margin-left:-50px;
+  margin-right:40px;
+  margin-top:60px;
+}
+
+#table_contact{
+  border-spacing: 50px 10px;
+  margin-left:150px;
+}
+
+
+
+#div_form{
+  float:right;
+}
+
+/* formulario */
+form{
+  width:70%;
+  margin-left:100px;
+  margin-right:30px;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+fieldset{
+  margin-bottom:10px;
+  border: solid 5px;
+  border-radius: 5px;
+  border-color:white;
+}
+
+label, legend{
+  color:white;
+  text-shadow: 2px 2px 3px black;
+}
+  
+legend{
+  font: 25px Arial;
+  text-align: center;
+}
+
+label{
+  font: 20px Arial;
+  margin-left:45px;
+}
+
+#lastname,#zipcode,#parentmail,#gender{
+  float:right;
+  margin-right:50px;
+  border:none;
+}
+
+#grade>label{
+    margin-left:5%;
+}
+
+#grade{
+  border:none;
+  width: 100%;
+  margin-left:-4px;
+}
+
+
+#zipcode,#lastname{
+  margin-top:0px;
+}
+
+#adress{
+  width:69.5%;
+}
+
+#city{
+    width:39%;
+}
+
+#guardian_name{
+  width: 79%;
+}
+
+#firstschool{
+  margin-left:20px;
+}
+
+#positions{
+  margin-left:7%;
+  width:80%;
+  border:none;
+}
+
+.center{
+  margin-left:20%;
+}
+
+#title_uniform{
+  margin-left:40%;
+  font-size: 25px;
+}
+
+
+#haveuniform{
+  display:block;
+  margin-left:250px;
+}
+
+#fs_jersey{
+  display:inline-block;
+  width:40%;
+  height:100%;
+  margin-left:6%;
+}
+#fs_jersey>label,#fs_shorts>label{
+margin-left:29%;
+}
+
+#fs_shorts{
+  display:inline-block;
+  width:40%;
+  height:100%;
+  padding-left:0;
+}
+
+#fs_agreement{
+  padding-left:25px;
+  padding-right:25px;
+}
+ 
+.agreement{
+ font: 20px Arial;
+  text-indent: 0.5em;
+  margin-left: 13px;
+  margin-right:13px;
+}
+
+#signature{
+  border:none;
+} 
+
+#date{
+  margin-left:50px;
+}
+#send{
+  margin-left: 300px;
+  height:40px;
+}
+
+
+
+
